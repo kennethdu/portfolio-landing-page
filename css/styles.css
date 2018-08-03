@@ -49,3 +49,17 @@ img.rotate {
 	font-style: italic;
 }
 
+img.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px 125px;
+}
+
+.down {
+	margin-top: 30px;
+}
+
+.all-pic{
+	margin-top: 90px;
+}

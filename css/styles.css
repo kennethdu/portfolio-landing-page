@@ -3,8 +3,8 @@
 	text-weight: bold;
 }
 
-img {
-	width: 200px;
+img.float {
+	width: 180px;
 	float: right;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -30,3 +30,22 @@ body {
 .white {
 	color: white;
 }
+
+img.logo {
+	width: 200px;
+	float: none;
+}
+
+img.rotate {
+	transform: rotate(90deg);
+}
+
+.margin {
+	margin-left: 5px;
+}
+
+.important {
+	color: red;
+	font-style: italic;
+}
+

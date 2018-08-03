@@ -4,6 +4,29 @@
 }
 
 img {
-	width: 150px;
+	width: 200px;
 	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+#width {
+	width: 65%;
+	margin-left: 140px;
+}
+
+body {
+	background-color: #4bb2f2;
+}
+
+.white {
+	color: white;
 }

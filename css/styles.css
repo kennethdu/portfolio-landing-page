@@ -63,3 +63,7 @@ img.center {
 .all-pic{
 	margin-top: 90px;
 }
+
+.panel-body li{
+	text-decoration: underline;
+}

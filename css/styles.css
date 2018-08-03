@@ -3,6 +3,7 @@
 	text-weight: bold;
 }
 
-p.center {
-	text-align: center;
-	text-size: 12px;
+img {
+	width: 150px;
+	float: right;
+}

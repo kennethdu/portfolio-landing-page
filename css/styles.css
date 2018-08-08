@@ -40,7 +40,7 @@ img.rotate {
 	transform: rotate(90deg);
 }
 
-.margin {
+#margin {
 	margin-left: 5px;
 }
 
@@ -66,4 +66,13 @@ img.center {
 
 .panel-body li{
 	text-decoration: underline;
+}
+
+button {
+	margin-top: 3%;
+	margin-left: 13%;
+}
+
+.dark-theme {
+	background-color: black;
 }

@@ -4,6 +4,8 @@
 		<title>Portfolio Landing Page</title>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/scripts.js"></script>
 	</head>
 <!-- TITLE -->
 	<div class="white">
@@ -55,9 +57,9 @@
 	</div>
 	
 <!-- About Me Background/Current Hobbies -->
-	<h2 class="center"><strong><em>Get to know me</strong></em></h2>
+	<h2 class="center" class="well"><strong><em>Get to know me</strong></em></h2>
 
-	<div class="row margin">
+	<div id="margin">
 		<div class="col-lg-4">
 			<div class="panel panel-success">
 				<div class="panel-heading">
@@ -110,11 +112,15 @@
 			</div>
 		</div>
 	</div>
+	<!-- Pictures -->
 		<div class="all-pic">
 			<img class="logo" src="img/logo.png" rel="logo">
 			<img class="logo rotate" src="img/me2.jpg" rel="second pic">
 			<img class="logo rotate down" src="img/cici.jpg" rel="cici pic">
 			<img class="logo rotate down" src="img/scooby.jpg" rel="scooby pic">
 		</div>
+		<button class="btn btn-success" id="moveButtonDark">Dark Theme</button>
+		<button class="btn btn-success" id="moveButtonLight">Light Theme</button>
+		
 	</div>
 </html>

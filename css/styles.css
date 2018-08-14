@@ -1,3 +1,20 @@
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+body {
+	background-color: #4bb2f2;
+}
+
+button {
+	margin-top: 3%;
+	margin-left: 13%;
+}
+
 .center {
 	text-align: center;
 	text-weight: bold;
@@ -10,27 +27,6 @@ img.float {
 	margin-right: 20px;
 }
 
-h2 {
-	text-align: center;
-}
-
-h3 {
-	text-align: center;
-}
-
-#width {
-	width: 65%;
-	margin-left: 140px;
-}
-
-body {
-	background-color: #4bb2f2;
-}
-
-.white {
-	color: white;
-}
-
 img.logo {
 	width: 200px;
 	float: none;
@@ -40,20 +36,41 @@ img.rotate {
 	transform: rotate(90deg);
 }
 
-#margin {
-	margin-left: 5px;
-}
-
-.important {
-	color: red;
-	font-style: italic;
-}
-
 img.center {
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 125px 125px;
+}
+
+#width {
+	width: 65%;
+	margin-left: 140px;
+}
+
+#margin {
+	margin-left: 5px;
+}
+
+.dark-theme {
+	background-color: black;
+}
+
+.white-theme {
+	background-color: white;
+}
+
+.panel-body li{
+	text-decoration: underline;
+}
+
+.white {
+	color: white;
+}
+
+.important {
+	color: red;
+	font-style: italic;
 }
 
 .down {
@@ -64,15 +81,3 @@ img.center {
 	margin-top: 90px;
 }
 
-.panel-body li{
-	text-decoration: underline;
-}
-
-button {
-	margin-top: 3%;
-	margin-left: 13%;
-}
-
-.dark-theme {
-	background-color: black;
-}

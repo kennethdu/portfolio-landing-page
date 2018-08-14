@@ -5,6 +5,11 @@ $(document).ready(function() {
   });
   
   $("button#moveButtonLight").click(function() {
-	$("body").removeClass("dark-theme");
+	$("body").removeClass();
+  });
+  
+  $("button#moveButtonWhite").click(function() {
+	$("body").removeClass();
+    $("body").addClass("white-theme");
   });
 })
